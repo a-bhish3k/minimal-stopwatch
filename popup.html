@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minimal Stopwatch</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="bg-gray-200 select-none">
+    <main class="px-12 mt-7">
+      <div
+        class="bg-gray-50 size-52 flex justify-center items-center rounded-full mx-auto relative border-8 border-gray-100 shadow-sm"
+      >
+        <div
+          id="spinner"
+          class="absolute size-full border-l border-r border-neutral-800 rounded-full"
+        ></div>
+        <div class="font-serif text-4xl font-bold" id="stopwatch">00:00:00</div>
+      </div>
+
+      <div class="text-center mt-8">
+        <button
+          id="watchBtn"
+          class="bg-neutral-950 px-7 py-3 rounded-full text-xs text-white font-semibold shadow-sm"
+        >
+          START
+        </button>
+        <button
+          id="resetBtn"
+          class="bg-gray-300 px-7 py-3 rounded-full text-xs ms-2 font-semibold shadow-sm"
+        >
+          RESET
+        </button>
+      </div>
+    </main>
+
+    <footer class="mt-6 mb-3 text-center">
+      <p class="text-neutral-800 text-[13px] font-mono">
+        Copyright <b>@tsuki</b>
+      </p>
+    </footer>
+  </body>
+  <script src="./popup.js"></script>
+</html>
