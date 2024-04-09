@@ -15,7 +15,7 @@ A simple stopwatch Chrome extension built using HTML, CSS (with Tailwind CSS), a
 1. **Clone the Repository:**
 
    ```bash
-   git clone
+   git clone https://github.com/a-bhish3k/minimal-stopwatch.git
    cd minimal-stopwatch
    ```
 
